@@ -1,9 +1,9 @@
-# Clearing Wrong.
+# Clearly Wrong.
 
 Just running this example repeatidly you will find differing numbers of 
 messages actually received by the parent.
 
-# Run Examples
+### Run Examples
 
 ```
 C:\Users\Andrew\git\node-child-process-fork\Test1>node parent.js
