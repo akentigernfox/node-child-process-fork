@@ -1,71 +1,76 @@
-*** Run Log Example
+# Clearing Wrong.
+
+Just running this example repeatidly you will find differing numbers of 
+messages actually received by the parent.
+
+# Run Examples
 
 C:\Users\Andrew\git\node-child-process-fork\Test1>node parent.js
 Begin
 End
 Pause End
-got message : 0
-got message : 1
-got message : 2
-got message : 3
-got message : 4
-got message : 5
-got message : 6
-got message : 7
-got message : 8
-got message : 9
-got message : 10
-got message : 11
-got message : 12
-got message : 13
-got message : 14
-got message : 15
-got message : 16
-got message : 17
-got message : 18
-got message : 19
-Exited
-got message : 20
+Got Message : 0
+Got Message : 1
+Got Message : 2
+Child Exited
+Got Message : 3
 
 C:\Users\Andrew\git\node-child-process-fork\Test1>node parent.js
 Begin
 End
 Pause End
-got message : 0
-got message : 1
-got message : 2
-got message : 3
-Exited
-got message : 4
+Got Message : 0
+Got Message : 1
+Got Message : 2
+Got Message : 3
+Child Exited
+Got Message : 4
 
 C:\Users\Andrew\git\node-child-process-fork\Test1>node parent.js
 Begin
 End
 Pause End
-got message : 0
-got message : 1
-got message : 2
-got message : 3
-Exited
-got message : 4
+Got Message : 0
+Got Message : 1
+Got Message : 2
+Got Message : 3
+Got Message : 4
+Child Exited
+Got Message : 5
 
 C:\Users\Andrew\git\node-child-process-fork\Test1>node parent.js
 Begin
 End
 Pause End
-got message : 0
-got message : 1
-got message : 2
-got message : 3
-got message : 4
-got message : 5
-got message : 6
-got message : 7
-got message : 8
-got message : 9
-Exited
-got message : 10
+Got Message : 0
+Got Message : 1
+Got Message : 2
+Got Message : 3
+Got Message : 4
+Child Exited
+Got Message : 5
+
+C:\Users\Andrew\git\node-child-process-fork\Test1>node parent.js
+Begin
+End
+Pause End
+Got Message : 0
+Got Message : 1
+Got Message : 2
+Child Exited
+Got Message : 3
+
+C:\Users\Andrew\git\node-child-process-fork\Test1>node parent.js
+Begin
+End
+Pause End
+Got Message : 0
+Got Message : 1
+Got Message : 2
+Got Message : 3
+Got Message : 4
+Got Message : 5
+Child Exited
+Got Message : 6
 
 C:\Users\Andrew\git\node-child-process-fork\Test1>
-
-
