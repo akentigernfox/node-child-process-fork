@@ -5,7 +5,7 @@ gives it the appearance of solving the problem but it is really masking the actu
 problem. 
 
 # Example Run Output
-
+```
 C:\Users\Andrew\git\node-child-process-fork\Test2>node parent.js
 Begin
 End
@@ -116,3 +116,4 @@ Child Exited
 Child Closed
 
 C:\Users\Andrew\git\node-child-process-fork\Test2>
+```
