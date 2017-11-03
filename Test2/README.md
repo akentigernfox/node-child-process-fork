@@ -2,7 +2,7 @@
 
 The Sending messages are not synchronized exactly, so the console.log in the client
 gives it the appearance of solving the problem but it is really masking the actual 
-problem.
+problem. 
 
 # Example Run Output
 
