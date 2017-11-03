@@ -4,7 +4,7 @@ node.js   child_process fork messaging.
 The problem with an exiting client process that is sending messages
 to the parent for further processing.
 
-To see the problems in each ecample,  just run :
+To see the problems in each example,  just run :
 
  node parent.js  
 
