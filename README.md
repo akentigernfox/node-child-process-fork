@@ -8,14 +8,14 @@ To see the problems in each example,  just run :
 
  node parent.js  
 
-#Test1
+### Test1
 
 Highlights how bad it really could be.
 
-#Test2
+### Test2
 
 Highlights how adding a console.log to the script masks the situtation
 
-#Soltion
+### Soltion
 
 Add a simple message handshake between parent & client before closing
