@@ -6,7 +6,6 @@ problem.
 
 # Example Run Output
 
-
 C:\Users\Andrew\git\node-child-process-fork\Test2>node parent.js
 Begin
 End
